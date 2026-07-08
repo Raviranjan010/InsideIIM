@@ -21,11 +21,11 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[x] Completed` |
 | **[09-dsa](./09-dsa/)** | Lightweight ongoing practice: arrays, strings, maps, recursion, and complexity. | `[x]` | `[ ]` | `[x] Completed` |
 | **[10-databases](./10-databases/)** | Relational database basics, SQL fundamentals, and architectural decisions. | `[ ]` | `[x]` | `[ ] Not Started` |
-| **[11-git-github-deployment](./11-git-github-deployment/)** | Workflows, committing, branching, PRs, and deploying to Vercel. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[11-git-github-deployment](./11-git-github-deployment/)** | Workflows, committing, branching, PRs, and deploying to Vercel. | `[x]` | `[ ]` | `[x] Completed` |
 | **[12-system-design-thinking](./12-system-design-thinking/)** | Rate limits, cost control, caching, and evaluating agent system quality. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[13-ai-product-thinking](./13-ai-product-thinking/)** | Understanding AI product cycles and thinking through user-facing AI features. | `[ ]` | `[x]` | `[ ] Not Started` |
-| **[14-resume-and-behavioral-prep](./14-resume-and-behavioral-prep/)** | Crafting project walk-throughs, behaviorals, and STAR structure drafts. | `[x]` | `[ ]` | `[ ] Not Started` |
-| **[15-mock-interview-bank](./15-mock-interview-bank/)** | Common technical questions, deep dives, and curveballs for live practice. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[14-resume-and-behavioral-prep](./14-resume-and-behavioral-prep/)** | Crafting project walk-throughs, behaviorals, and STAR structure drafts. | `[x]` | `[ ]` | `[x] Completed` |
+| **[15-mock-interview-bank](./15-mock-interview-bank/)** | Common technical questions, deep dives, and curveballs for live practice. | `[x]` | `[ ]` | `[x] Completed` |
 | **[16-project-defense](./16-project-defense/)** | Self-written assignment defense and technical choice explanations. | `[x]` | `[ ]` | `[ ] Not Started` |
 
 ---
@@ -146,10 +146,10 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [ ] [mcqs.md](./10-databases/mcqs.md)
 
 ### 🔴 [Module 11: Git, GitHub & Deployment](./11-git-github-deployment/) (This Week)
-- [ ] [01-git-basics-commit-branch.md](./11-git-github-deployment/01-git-basics-commit-branch.md)
-- [ ] [02-github-workflow.md](./11-git-github-deployment/02-github-workflow.md)
-- [ ] [03-vercel-deployment.md](./11-git-github-deployment/03-vercel-deployment.md)
-- [ ] [mcqs.md](./11-git-github-deployment/mcqs.md)
+- [x] [01-git-basics-commit-branch.md](./11-git-github-deployment/01-git-basics-commit-branch.md)
+- [x] [02-github-workflow.md](./11-git-github-deployment/02-github-workflow.md)
+- [x] [03-vercel-deployment.md](./11-git-github-deployment/03-vercel-deployment.md)
+- [x] [mcqs.md](./11-git-github-deployment/mcqs.md)
 
 ### 🔵 [Module 12: System Design Thinking](./12-system-design-thinking/) (Later)
 - [ ] [01-cost-and-rate-limits.md](./12-system-design-thinking/01-cost-and-rate-limits.md)
@@ -163,14 +163,14 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [ ] [interview-qna.md](./13-ai-product-thinking/interview-qna.md)
 
 ### 🔴 [Module 14: Resume & Behavioral Prep](./14-resume-and-behavioral-prep/) (This Week)
-- [ ] [01-explaining-your-projects.md](./14-resume-and-behavioral-prep/01-explaining-your-projects.md)
-- [ ] [02-common-behavioral-questions.md](./14-resume-and-behavioral-prep/02-common-behavioral-questions.md)
-- [ ] [star-method-answers.md](./14-resume-and-behavioral-prep/star-method-answers.md)
+- [x] [01-explaining-your-projects.md](./14-resume-and-behavioral-prep/01-explaining-your-projects.md)
+- [x] [02-common-behavioral-questions.md](./14-resume-and-behavioral-prep/02-common-behavioral-questions.md)
+- [x] [star-method-answers.md](./14-resume-and-behavioral-prep/star-method-answers.md)
 
 ### 🔴 [Module 15: Mock Interview Bank](./15-mock-interview-bank/) (This Week)
-- [ ] [technical-round-questions.md](./15-mock-interview-bank/technical-round-questions.md)
-- [ ] [project-deep-dive-questions.md](./15-mock-interview-bank/project-deep-dive-questions.md)
-- [ ] [curveball-questions.md](./15-mock-interview-bank/curveball-questions.md)
+- [x] [technical-round-questions.md](./15-mock-interview-bank/technical-round-questions.md)
+- [x] [project-deep-dive-questions.md](./15-mock-interview-bank/project-deep-dive-questions.md)
+- [x] [curveball-questions.md](./15-mock-interview-bank/curveball-questions.md)
 
 ### 🔴 [Module 16: Project Defense](./16-project-defense/) (This Week)
 - [ ] [my-assignment-explained.md](./16-project-defense/my-assignment-explained.md)
