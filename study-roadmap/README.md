@@ -27,6 +27,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[14-resume-and-behavioral-prep](./14-resume-and-behavioral-prep/)** | Crafting project walk-throughs, behaviorals, and STAR structure drafts. | `[x]` | `[ ]` | `[x] Completed` |
 | **[15-mock-interview-bank](./15-mock-interview-bank/)** | Common technical questions, deep dives, and curveballs for live practice. | `[x]` | `[ ]` | `[x] Completed` |
 | **[16-project-defense](./16-project-defense/)** | Self-written assignment defense and technical choice explanations. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[17-python-fundamentals](./17-python-fundamentals/)** | Python syntax, variables, lists, list comprehensions, and data processing. | `[ ]` | `[x]` | `[x] Completed` |
 
 ---
 
@@ -51,7 +52,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 ### 🔴🔵 [Module 02: JavaScript](./02-javascript/) (Mixed)
 - **🔴 Core (This Week)**
   - [x] [01-syntax-variables-scope.md](./02-javascript/01-syntax-variables-scope.md)
-  - [ ] [02-functions-this-closures.md](./02-javascript/02-functions-this-closures.md)
+  - [x] [02-functions-this-closures.md](./02-javascript/02-functions-this-closures.md)
   - [ ] [03-objects-arrays-destructuring.md](./02-javascript/03-objects-arrays-destructuring.md)
   - [ ] [04-array-methods.md](./02-javascript/04-array-methods.md)
   - [ ] [05-async-promises-event-loop.md](./02-javascript/05-async-promises-event-loop.md)
@@ -174,3 +175,10 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 
 ### 🔴 [Module 16: Project Defense](./16-project-defense/) (This Week)
 - [ ] [my-assignment-explained.md](./16-project-defense/my-assignment-explained.md)
+
+### 🔵 [Module 17: Python Fundamentals](./17-python-fundamentals/) (Later)
+- [x] [01-python-basics.md](./17-python-fundamentals/01-python-basics.md)
+- [x] [02-functions-and-modules.md](./17-python-fundamentals/02-functions-and-modules.md)
+- [x] [03-python-for-ai-tooling.md](./17-python-fundamentals/03-python-for-ai-tooling.md)
+- [x] [interview-qna.md](./17-python-fundamentals/interview-qna.md)
+- [x] [mcqs.md](./17-python-fundamentals/mcqs.md)
