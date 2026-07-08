@@ -16,7 +16,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] In Progress` |
 | **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] In Progress` |
-| **[06-nodejs-backend](./06-nodejs-backend/)** | Request-response cycle, calling APIs, error handling, and environment config. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[06-nodejs-backend](./06-nodejs-backend/)** | Request-response cycle, calling external APIs, error handling, and environment config. | `[x]` | `[ ]` | `[x] Completed` |
 | **[07-llm-genai-fundamentals](./07-llm-genai-fundamentals/)** | Basic LLM concepts, structured outputs, prompt styles, tool calling, and RAG. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[09-dsa](./09-dsa/)** | Lightweight ongoing practice: arrays, strings, maps, recursion, and complexity. | `[x]` | `[ ]` | `[ ] Not Started` |
@@ -101,12 +101,12 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
   - [ ] [interview-qna.md](./05-nextjs/interview-qna.md)
 
 ### 🔴 [Module 06: Node.js Backend](./06-nodejs-backend/) (This Week)
-- [ ] [01-request-response-cycle.md](./06-nodejs-backend/01-request-response-cycle.md)
-- [ ] [02-calling-external-apis.md](./06-nodejs-backend/02-calling-external-apis.md)
-- [ ] [03-error-handling-timeouts.md](./06-nodejs-backend/03-error-handling-timeouts.md)
-- [ ] [04-security-api-keys-env.md](./06-nodejs-backend/04-security-api-keys-env.md)
-- [ ] [mcqs.md](./06-nodejs-backend/mcqs.md)
-- [ ] [interview-qna.md](./06-nodejs-backend/interview-qna.md)
+- [x] [01-request-response-cycle.md](./06-nodejs-backend/01-request-response-cycle.md)
+- [x] [02-calling-external-apis.md](./06-nodejs-backend/02-calling-external-apis.md)
+- [x] [03-error-handling-timeouts.md](./06-nodejs-backend/03-error-handling-timeouts.md)
+- [x] [04-security-api-keys-env.md](./06-nodejs-backend/04-security-api-keys-env.md)
+- [x] [mcqs.md](./06-nodejs-backend/mcqs.md)
+- [x] [interview-qna.md](./06-nodejs-backend/interview-qna.md)
 - [ ] [examples/](./06-nodejs-backend/examples/) (Code examples folder)
 
 ### 🔴 [Module 07: LLM & GenAI Fundamentals](./07-llm-genai-fundamentals/) (This Week)
