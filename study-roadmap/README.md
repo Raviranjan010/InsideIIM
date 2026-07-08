@@ -13,9 +13,9 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[00-computer-and-web-fundamentals](./00-computer-and-web-fundamentals/)** | Essential internet architectures, client-server models, HTTP, and shell tools. | `[x]` | `[ ]` | `[x] Completed` |
 | **[01-html-css-fundamentals](./01-html-css-fundamentals/)** | Semantics, Box Model, Flexbox/Grid, and responsive layout foundations. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[02-javascript](./02-javascript/)** | Core syntax, scope, closures, array methods, async event loop, and classes. | `[x]` (Core) | `[x]` (Deep) | `[ ] In Progress` |
-| **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] Not Started` |
+| **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] In Progress` |
 | **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[ ] Not Started` |
-| **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] Not Started` |
+| **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] In Progress` |
 | **[06-nodejs-backend](./06-nodejs-backend/)** | Request-response cycle, calling APIs, error handling, and environment config. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[07-llm-genai-fundamentals](./07-llm-genai-fundamentals/)** | Basic LLM concepts, structured outputs, prompt styles, tool calling, and RAG. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[ ] Not Started` |
@@ -67,9 +67,9 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 
 ### 🔴🔵 [Module 03: TypeScript](./03-typescript/) (Mixed)
 - **🔴 Basics (This Week)**
-  - [ ] [01-why-typescript-basic-types.md](./03-typescript/01-why-typescript-basic-types.md)
-  - [ ] [02-interfaces-types.md](./03-typescript/02-interfaces-types.md)
-  - [ ] [03-generics.md](./03-typescript/03-generics.md)
+  - [x] [01-why-typescript-basic-types.md](./03-typescript/01-why-typescript-basic-types.md)
+  - [x] [02-interfaces-types.md](./03-typescript/02-interfaces-types.md)
+  - [x] [03-generics.md](./03-typescript/03-generics.md)
 - **🔵 Full (Later)**
   - [ ] [04-utility-types-advanced.md](./03-typescript/04-utility-types-advanced.md)
 - **Assessments**
@@ -90,9 +90,9 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 
 ### 🔴🔵 [Module 05: Next.js](./05-nextjs/) (Mixed)
 - **🔴 Routing & API (This Week)**
-  - [ ] [01-app-router-basics.md](./05-nextjs/01-app-router-basics.md)
-  - [ ] [02-api-route-handlers.md](./05-nextjs/02-api-route-handlers.md)
-  - [ ] [05-env-variables-config.md](./05-nextjs/05-env-variables-config.md)
+  - [x] [01-app-router-basics.md](./05-nextjs/01-app-router-basics.md)
+  - [x] [02-api-route-handlers.md](./05-nextjs/02-api-route-handlers.md)
+  - [x] [05-env-variables-config.md](./05-nextjs/05-env-variables-config.md)
 - **🔵 Rest (Later)**
   - [ ] [03-server-vs-client-components.md](./05-nextjs/03-server-vs-client-components.md)
   - [ ] [04-data-fetching-patterns.md](./05-nextjs/04-data-fetching-patterns.md)
