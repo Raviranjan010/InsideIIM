@@ -1,0 +1,19 @@
+{
+  "name": "langgraph-examples",
+  "version": "1.0.0",
+  "description": "Runnable LangGraph.js examples",
+  "main": "agent.ts",
+  "scripts": {
+    "start": "tsx agent.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.2.0",
+    "@langchain/langgraph": "^0.0.25",
+    "@langchain/openai": "^0.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}

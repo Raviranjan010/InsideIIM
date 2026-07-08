@@ -1,18 +1,3 @@
-# Complete Runnable Agent Graph: A 3-Node Workflow
-
-In this guide, you will see a complete, production-ready, and runnable LangGraph.js workflow.
-
-This example builds a **3-node investment agent** (`research` → `analyze` → `decide`) that executes a financial search tool, processes the data, and returns a strictly typed JSON investment recommendation.
-
----
-
-## 🛠️ Complete Runnable Code
-
-This code uses the modern **`Annotation.Root`** state API. It uses a mock search tool and implements a safety fallback so it runs cleanly out-of-the-box even if you don't have an active OpenAI API key configured.
-
-Save this file as `study-roadmap/08-langchain-langgraph/examples/agent.ts`:
-
-```typescript
 import { StateGraph, Annotation, START, END } from "@langchain/langgraph";
 import { ChatOpenAI } from "@langchain/openai";
 import { tool } from "@langchain/core/tools";
@@ -23,7 +8,7 @@ import { z } from "zod";
 // ==========================================
 const searchFinanceTool = tool(
   async ({ query }) => {
-    console.log(`[Tool Executed]: Searching for: ${query}`);
+    console.log(`[Tool Executed]: Searching stock data for: ${query}`);
     
     // Mocked live stock database response
     const queryLower = query.toLowerCase();
@@ -67,7 +52,6 @@ const StateAnnotation = Annotation.Root({
 // NODE 1: Research (Runs the search tool)
 const researchNode = async (state: typeof StateAnnotation.State) => {
   console.log("--- NODE 1: RESEARCH ---");
-  // Call our tool directly inside the node
   const toolResult = await searchFinanceTool.invoke({ query: state.query });
   return { rawResearch: toolResult };
 };
@@ -93,7 +77,6 @@ const analyzeNode = async (state: typeof StateAnnotation.State) => {
 const decideNode = async (state: typeof StateAnnotation.State) => {
   console.log("--- NODE 3: DECIDE ---");
 
-  // Define the expected output structure using Zod
   const decisionSchema = z.object({
     recommendation: z.enum(["BUY", "HOLD", "SELL"]),
     rationale: z.string().describe("The core reasoning behind the advice."),
@@ -103,22 +86,18 @@ const decideNode = async (state: typeof StateAnnotation.State) => {
   let decisionJson;
 
   if (process.env.OPENAI_API_KEY) {
-    // 1. Initialize OpenAI Model
     const model = new ChatOpenAI({
       model: "gpt-4o-mini",
-      temperature: 0 // Enforce deterministic parsing
+      temperature: 0
     });
 
-    // 2. Wrap model to enforce Zod structured output schema
     const structuredModel = model.withStructuredOutput(decisionSchema);
 
-    // 3. Call LLM
     decisionJson = await structuredModel.invoke(
       `Analyze these metrics and make a decision: ${state.analysisMetrics}`
     );
   } else {
-    // Fallback Mock output if no API key is configured
-    console.log("[Notice]: No OPENAI_API_KEY detected. Running mock fallback.");
+    console.log("[Notice]: No OPENAI_API_KEY detected in env. Running mock fallback.");
     decisionJson = {
       recommendation: "HOLD",
       rationale: "Simulation Mode: P/E ratio is high ($67.9), suggesting cautious hold.",
@@ -149,6 +128,7 @@ export const app = workflow.compile();
 // 5. Execution Runner
 // ==========================================
 async function run() {
+  console.log("Starting Graph Execution with input: 'Tesla stock metrics'...");
   const initialState = { query: "Tesla stock metrics" };
   const finalState = await app.invoke(initialState);
   
@@ -161,24 +141,3 @@ async function run() {
 if (require.main === module) {
   run();
 }
-```
-
----
-
-## 🧠 Self-Check Recall
-
-1.  What three nodes make up the workflow in this runnable example?
-2.  How is the search tool executed inside the `researchNode`?
-3.  What library is used in the `decideNode` to enforce the structured JSON output schema?
-4.  Why is there an `if (process.env.OPENAI_API_KEY)` check inside the `decideNode`?
-5.  What parameter is passed to `app.invoke()` to kick off the graph execution?
-
-<details>
-<summary>🔑 Click to reveal answers</summary>
-
-1.  **`research`**, **`analyze`**, and **`decide`**.
-2.  **By calling `await searchFinanceTool.invoke({ query: state.query })`** directly.
-3.  **Zod** (used via `model.withStructuredOutput(decisionSchema)`).
-4.  **To ensure the code runs cleanly out-of-the-box** in local environments even if the user hasn't configured live API keys yet.
-5.  **An object containing the initial state properties** (e.g. `{ query: "Tesla stock metrics" }`).
-</details>

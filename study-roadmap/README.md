@@ -17,7 +17,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] In Progress` |
 | **[06-nodejs-backend](./06-nodejs-backend/)** | Request-response cycle, calling external APIs, error handling, and environment config. | `[x]` | `[ ]` | `[x] Completed` |
-| **[07-llm-genai-fundamentals](./07-llm-genai-fundamentals/)** | Basic LLM concepts, structured outputs, prompt styles, tool calling, and RAG. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[07-llm-genai-fundamentals](./07-llm-genai-fundamentals/)** | Basic LLM concepts, structured outputs, prompt styles, tool calling, and RAG. | `[x]` | `[ ]` | `[x] Completed` |
 | **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[09-dsa](./09-dsa/)** | Lightweight ongoing practice: arrays, strings, maps, recursion, and complexity. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[10-databases](./10-databases/)** | Relational database basics, SQL fundamentals, and architectural decisions. | `[ ]` | `[x]` | `[ ] Not Started` |
@@ -110,14 +110,14 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [ ] [examples/](./06-nodejs-backend/examples/) (Code examples folder)
 
 ### 🔴 [Module 07: LLM & GenAI Fundamentals](./07-llm-genai-fundamentals/) (This Week)
-- [ ] [01-how-llms-work-basics.md](./07-llm-genai-fundamentals/01-how-llms-work-basics.md)
-- [ ] [02-prompting-system-vs-user.md](./07-llm-genai-fundamentals/02-prompting-system-vs-user.md)
-- [ ] [03-structured-output-json-mode.md](./07-llm-genai-fundamentals/03-structured-output-json-mode.md)
-- [ ] [04-function-tool-calling.md](./07-llm-genai-fundamentals/04-function-tool-calling.md)
-- [ ] [05-temperature-sampling.md](./07-llm-genai-fundamentals/05-temperature-sampling.md)
-- [ ] [06-hallucination-grounding-rag.md](./07-llm-genai-fundamentals/06-hallucination-grounding-rag.md)
-- [ ] [mcqs.md](./07-llm-genai-fundamentals/mcqs.md)
-- [ ] [interview-qna.md](./07-llm-genai-fundamentals/interview-qna.md)
+- [x] [01-how-llms-work-basics.md](./07-llm-genai-fundamentals/01-how-llms-work-basics.md)
+- [x] [02-prompting-system-vs-user.md](./07-llm-genai-fundamentals/02-prompting-system-vs-user.md)
+- [x] [03-structured-output-json-mode.md](./07-llm-genai-fundamentals/03-structured-output-json-mode.md)
+- [x] [04-function-tool-calling.md](./07-llm-genai-fundamentals/04-function-tool-calling.md)
+- [x] [05-temperature-sampling.md](./07-llm-genai-fundamentals/05-temperature-sampling.md)
+- [x] [06-hallucination-grounding-rag.md](./07-llm-genai-fundamentals/06-hallucination-grounding-rag.md)
+- [x] [mcqs.md](./07-llm-genai-fundamentals/mcqs.md)
+- [x] [interview-qna.md](./07-llm-genai-fundamentals/interview-qna.md)
 
 ### 🔴 [Module 08: LangChain & LangGraph](./08-langchain-langgraph/) (This Week)
 - [ ] [01-agents-vs-chains.md](./08-langchain-langgraph/01-agents-vs-chains.md)
