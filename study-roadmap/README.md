@@ -11,7 +11,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | Module | Description | This Week | Later | Progress |
 | :--- | :--- | :---: | :---: | :---: |
 | **[00-computer-and-web-fundamentals](./00-computer-and-web-fundamentals/)** | Essential internet architectures, client-server models, HTTP, and shell tools. | `[x]` | `[ ]` | `[x] Completed` |
-| **[01-html-css-fundamentals](./01-html-css-fundamentals/)** | Semantics, Box Model, Flexbox/Grid, and responsive layout foundations. | `[ ]` | `[x]` | `[ ] Not Started` |
+| **[01-html-css-fundamentals](./01-html-css-fundamentals/)** | Semantics, Box Model, Flexbox/Grid, and responsive layout foundations. | `[ ]` | `[x]` | `[x] Completed` |
 | **[02-javascript](./02-javascript/)** | Core syntax, scope, closures, array methods, async event loop, and classes. | `[x]` (Core) | `[x]` (Deep) | `[ ] In Progress` |
 | **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] In Progress` |
 | **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[ ] Not Started` |
@@ -41,12 +41,12 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [x] [interview-qna.md](./00-computer-and-web-fundamentals/interview-qna.md)
 
 ### 🔵 [Module 01: HTML & CSS Fundamentals](./01-html-css-fundamentals/) (Later)
-- [ ] [01-html-structure-semantics.md](./01-html-css-fundamentals/01-html-structure-semantics.md)
-- [ ] [02-css-box-model-layout.md](./01-html-css-fundamentals/02-css-box-model-layout.md)
-- [ ] [03-flexbox-grid.md](./01-html-css-fundamentals/03-flexbox-grid.md)
-- [ ] [04-responsive-design.md](./01-html-css-fundamentals/04-responsive-design.md)
-- [ ] [mcqs.md](./01-html-css-fundamentals/mcqs.md)
-- [ ] [interview-qna.md](./01-html-css-fundamentals/interview-qna.md)
+- [x] [01-html-structure-semantics.md](./01-html-css-fundamentals/01-html-structure-semantics.md)
+- [x] [02-css-box-model-layout.md](./01-html-css-fundamentals/02-css-box-model-layout.md)
+- [x] [03-flexbox-grid.md](./01-html-css-fundamentals/03-flexbox-grid.md)
+- [x] [04-responsive-design.md](./01-html-css-fundamentals/04-responsive-design.md)
+- [x] [mcqs.md](./01-html-css-fundamentals/mcqs.md)
+- [x] [interview-qna.md](./01-html-css-fundamentals/interview-qna.md)
 
 ### 🔴🔵 [Module 02: JavaScript](./02-javascript/) (Mixed)
 - **🔴 Core (This Week)**
@@ -59,7 +59,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
   - [ ] [07-modules-import-export.md](./02-javascript/07-modules-import-export.md)
   - [ ] [09-json-and-apis.md](./02-javascript/09-json-and-apis.md)
 - **🔵 Deep (Later)**
-  - [ ] [08-prototypes-classes.md](./02-javascript/08-prototypes-classes.md)
+  - [x] [08-prototypes-classes.md](./02-javascript/08-prototypes-classes.md)
 - **Assessments & Practice**
   - [x] [mcqs.md](./02-javascript/mcqs.md) (40 questions, evenly spread)
   - [x] [interview-qna.md](./02-javascript/interview-qna.md) (20 questions)
@@ -71,7 +71,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
   - [x] [02-interfaces-types.md](./03-typescript/02-interfaces-types.md)
   - [x] [03-generics.md](./03-typescript/03-generics.md)
 - **🔵 Full (Later)**
-  - [ ] [04-utility-types-advanced.md](./03-typescript/04-utility-types-advanced.md)
+  - [x] [04-utility-types-advanced.md](./03-typescript/04-utility-types-advanced.md)
 - **Assessments**
   - [ ] [mcqs.md](./03-typescript/mcqs.md)
   - [ ] [interview-qna.md](./03-typescript/interview-qna.md)
