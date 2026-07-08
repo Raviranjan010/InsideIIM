@@ -12,7 +12,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | :--- | :--- | :---: | :---: | :---: |
 | **[00-computer-and-web-fundamentals](./00-computer-and-web-fundamentals/)** | Essential internet architectures, client-server models, HTTP, and shell tools. | `[x]` | `[ ]` | `[x] Completed` |
 | **[01-html-css-fundamentals](./01-html-css-fundamentals/)** | Semantics, Box Model, Flexbox/Grid, and responsive layout foundations. | `[ ]` | `[x]` | `[ ] Not Started` |
-| **[02-javascript](./02-javascript/)** | Core syntax, scope, closures, array methods, async event loop, and classes. | `[x]` (Core) | `[x]` (Deep) | `[ ] Not Started` |
+| **[02-javascript](./02-javascript/)** | Core syntax, scope, closures, array methods, async event loop, and classes. | `[x]` (Core) | `[x]` (Deep) | `[ ] In Progress` |
 | **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] Not Started` |
 | **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] Not Started` |
@@ -50,7 +50,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 
 ### 🔴🔵 [Module 02: JavaScript](./02-javascript/) (Mixed)
 - **🔴 Core (This Week)**
-  - [ ] [01-syntax-variables-scope.md](./02-javascript/01-syntax-variables-scope.md)
+  - [x] [01-syntax-variables-scope.md](./02-javascript/01-syntax-variables-scope.md)
   - [ ] [02-functions-this-closures.md](./02-javascript/02-functions-this-closures.md)
   - [ ] [03-objects-arrays-destructuring.md](./02-javascript/03-objects-arrays-destructuring.md)
   - [ ] [04-array-methods.md](./02-javascript/04-array-methods.md)
@@ -61,8 +61,8 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - **🔵 Deep (Later)**
   - [ ] [08-prototypes-classes.md](./02-javascript/08-prototypes-classes.md)
 - **Assessments & Practice**
-  - [ ] [mcqs.md](./02-javascript/mcqs.md) (40 questions, evenly spread)
-  - [ ] [interview-qna.md](./02-javascript/interview-qna.md) (20 questions)
+  - [x] [mcqs.md](./02-javascript/mcqs.md) (40 questions, evenly spread)
+  - [x] [interview-qna.md](./02-javascript/interview-qna.md) (20 questions)
   - [ ] [examples/](./02-javascript/examples/) (Code examples folder)
 
 ### 🔴🔵 [Module 03: TypeScript](./03-typescript/) (Mixed)
