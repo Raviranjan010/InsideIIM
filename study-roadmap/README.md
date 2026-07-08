@@ -28,6 +28,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[15-mock-interview-bank](./15-mock-interview-bank/)** | Common technical questions, deep dives, and curveballs for live practice. | `[x]` | `[ ]` | `[x] Completed` |
 | **[16-project-defense](./16-project-defense/)** | Self-written assignment defense and technical choice explanations. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[17-python-fundamentals](./17-python-fundamentals/)** | Python syntax, variables, lists, list comprehensions, and data processing. | `[ ]` | `[x]` | `[x] Completed` |
+| **[18-cloud-aws-fundamentals](./18-cloud-aws-fundamentals/)** | Cloud computing basics, EC2/S3/Lambda/RDS, and product-specific AWS architectures. | `[ ]` | `[x]` | `[x] Completed` |
 
 ---
 
@@ -182,3 +183,10 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [x] [03-python-for-ai-tooling.md](./17-python-fundamentals/03-python-for-ai-tooling.md)
 - [x] [interview-qna.md](./17-python-fundamentals/interview-qna.md)
 - [x] [mcqs.md](./17-python-fundamentals/mcqs.md)
+
+### 🔵 [Module 18: Cloud & AWS Fundamentals](./18-cloud-aws-fundamentals/) (Later)
+- [x] [01-cloud-computing-basics.md](./18-cloud-aws-fundamentals/01-cloud-computing-basics.md)
+- [x] [02-core-aws-services.md](./18-cloud-aws-fundamentals/02-core-aws-services.md)
+- [x] [03-aws-in-an-ai-product-context.md](./18-cloud-aws-fundamentals/03-aws-in-an-ai-product-context.md)
+- [x] [interview-qna.md](./18-cloud-aws-fundamentals/interview-qna.md)
+- [x] [mcqs.md](./18-cloud-aws-fundamentals/mcqs.md)
