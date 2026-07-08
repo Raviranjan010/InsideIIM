@@ -18,8 +18,8 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] In Progress` |
 | **[06-nodejs-backend](./06-nodejs-backend/)** | Request-response cycle, calling external APIs, error handling, and environment config. | `[x]` | `[ ]` | `[x] Completed` |
 | **[07-llm-genai-fundamentals](./07-llm-genai-fundamentals/)** | Basic LLM concepts, structured outputs, prompt styles, tool calling, and RAG. | `[x]` | `[ ]` | `[x] Completed` |
-| **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[ ] Not Started` |
-| **[09-dsa](./09-dsa/)** | Lightweight ongoing practice: arrays, strings, maps, recursion, and complexity. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[x] Completed` |
+| **[09-dsa](./09-dsa/)** | Lightweight ongoing practice: arrays, strings, maps, recursion, and complexity. | `[x]` | `[ ]` | `[x] Completed` |
 | **[10-databases](./10-databases/)** | Relational database basics, SQL fundamentals, and architectural decisions. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[11-git-github-deployment](./11-git-github-deployment/)** | Workflows, committing, branching, PRs, and deploying to Vercel. | `[x]` | `[ ]` | `[ ] Not Started` |
 | **[12-system-design-thinking](./12-system-design-thinking/)** | Rate limits, cost control, caching, and evaluating agent system quality. | `[ ]` | `[x]` | `[ ] Not Started` |
@@ -120,24 +120,24 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [x] [interview-qna.md](./07-llm-genai-fundamentals/interview-qna.md)
 
 ### 🔴 [Module 08: LangChain & LangGraph](./08-langchain-langgraph/) (This Week)
-- [ ] [01-agents-vs-chains.md](./08-langchain-langgraph/01-agents-vs-chains.md)
-- [ ] [02-stategraph-state-design.md](./08-langchain-langgraph/02-stategraph-state-design.md)
-- [ ] [03-nodes-and-edges.md](./08-langchain-langgraph/03-nodes-and-edges.md)
-- [ ] [04-conditional-edges-routing.md](./08-langchain-langgraph/04-conditional-edges-routing.md)
-- [ ] [05-tool-binding-toolnode.md](./08-langchain-langgraph/05-tool-binding-toolnode.md)
-- [ ] [06-full-agent-loop-example.md](./08-langchain-langgraph/06-full-agent-loop-example.md)
-- [ ] [07-common-failure-modes.md](./08-langchain-langgraph/07-common-failure-modes.md)
-- [ ] [mcqs.md](./08-langchain-langgraph/mcqs.md)
-- [ ] [interview-qna.md](./08-langchain-langgraph/interview-qna.md)
-- [ ] [examples/](./08-langchain-langgraph/examples/) (Code examples folder)
+- [x] [01-agents-vs-chains.md](./08-langchain-langgraph/01-agents-vs-chains.md)
+- [x] [02-stategraph-state-design.md](./08-langchain-langgraph/02-stategraph-state-design.md)
+- [x] [03-nodes-and-edges.md](./08-langchain-langgraph/03-nodes-and-edges.md)
+- [x] [04-conditional-edges-routing.md](./08-langchain-langgraph/04-conditional-edges-routing.md)
+- [x] [05-tool-binding-toolnode.md](./08-langchain-langgraph/05-tool-binding-toolnode.md)
+- [x] [06-full-agent-loop-example.md](./08-langchain-langgraph/06-full-agent-loop-example.md)
+- [x] [07-common-failure-modes.md](./08-langchain-langgraph/07-common-failure-modes.md)
+- [x] [mcqs.md](./08-langchain-langgraph/mcqs.md)
+- [x] [interview-qna.md](./08-langchain-langgraph/interview-qna.md)
+- [x] [examples/](./08-langchain-langgraph/examples/) (Code examples folder)
 
 ### 🔴 [Module 09: DSA](./09-dsa/) (This Week)
-- [ ] [01-arrays-strings.md](./09-dsa/01-arrays-strings.md)
-- [ ] [02-hashmaps-objects.md](./09-dsa/02-hashmaps-objects.md)
-- [ ] [03-recursion-basics.md](./09-dsa/03-recursion-basics.md)
-- [ ] [04-big-o-complexity.md](./09-dsa/04-big-o-complexity.md)
-- [ ] [mcqs.md](./09-dsa/mcqs.md)
-- [ ] [problems/](./09-dsa/problems/) (Folder for individual problem files)
+- [x] [01-arrays-strings.md](./09-dsa/01-arrays-strings.md)
+- [x] [02-hashmaps-objects.md](./09-dsa/02-hashmaps-objects.md)
+- [x] [03-recursion-basics.md](./09-dsa/03-recursion-basics.md)
+- [x] [04-big-o-complexity.md](./09-dsa/04-big-o-complexity.md)
+- [x] [mcqs.md](./09-dsa/mcqs.md)
+- [x] [problems/](./09-dsa/problems/) (Folder for individual problem files)
 
 ### 🔵 [Module 10: Databases](./10-databases/) (Later)
 - [ ] [01-relational-db-basics.md](./10-databases/01-relational-db-basics.md)
