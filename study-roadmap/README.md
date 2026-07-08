@@ -14,16 +14,16 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 | **[01-html-css-fundamentals](./01-html-css-fundamentals/)** | Semantics, Box Model, Flexbox/Grid, and responsive layout foundations. | `[ ]` | `[x]` | `[x] Completed` |
 | **[02-javascript](./02-javascript/)** | Core syntax, scope, closures, array methods, async event loop, and classes. | `[x]` (Core) | `[x]` (Deep) | `[ ] In Progress` |
 | **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] In Progress` |
-| **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[ ] Not Started` |
+| **[04-react](./04-react/)** | Components, hooks, state patterns, controlled forms, and rendering cycles. | `[ ]` | `[x]` | `[x] Completed` |
 | **[05-nextjs](./05-nextjs/)** | App Router, Route Handlers, Server/Client components, and Data Fetching. | `[x]` (Routing/API) | `[x]` (Rest) | `[ ] In Progress` |
 | **[06-nodejs-backend](./06-nodejs-backend/)** | Request-response cycle, calling external APIs, error handling, and environment config. | `[x]` | `[ ]` | `[x] Completed` |
 | **[07-llm-genai-fundamentals](./07-llm-genai-fundamentals/)** | Basic LLM concepts, structured outputs, prompt styles, tool calling, and RAG. | `[x]` | `[ ]` | `[x] Completed` |
 | **[08-langchain-langgraph](./08-langchain-langgraph/)** | Chains vs Agents, StateGraph, edges, conditional routing, and tool binding. | `[x]` | `[ ]` | `[x] Completed` |
 | **[09-dsa](./09-dsa/)** | Lightweight ongoing practice: arrays, strings, maps, recursion, and complexity. | `[x]` | `[ ]` | `[x] Completed` |
-| **[10-databases](./10-databases/)** | Relational database basics, SQL fundamentals, and architectural decisions. | `[ ]` | `[x]` | `[ ] Not Started` |
+| **[10-databases](./10-databases/)** | Relational database basics, SQL fundamentals, and architectural decisions. | `[ ]` | `[x]` | `[x] Completed` |
 | **[11-git-github-deployment](./11-git-github-deployment/)** | Workflows, committing, branching, PRs, and deploying to Vercel. | `[x]` | `[ ]` | `[x] Completed` |
-| **[12-system-design-thinking](./12-system-design-thinking/)** | Rate limits, cost control, caching, and evaluating agent system quality. | `[ ]` | `[x]` | `[ ] Not Started` |
-| **[13-ai-product-thinking](./13-ai-product-thinking/)** | Understanding AI product cycles and thinking through user-facing AI features. | `[ ]` | `[x]` | `[ ] Not Started` |
+| **[12-system-design-thinking](./12-system-design-thinking/)** | Rate limits, cost control, caching, and evaluating agent system quality. | `[ ]` | `[x]` | `[x] Completed` |
+| **[13-ai-product-thinking](./13-ai-product-thinking/)** | Understanding AI product cycles and thinking through user-facing AI features. | `[ ]` | `[x]` | `[x] Completed` |
 | **[14-resume-and-behavioral-prep](./14-resume-and-behavioral-prep/)** | Crafting project walk-throughs, behaviorals, and STAR structure drafts. | `[x]` | `[ ]` | `[x] Completed` |
 | **[15-mock-interview-bank](./15-mock-interview-bank/)** | Common technical questions, deep dives, and curveballs for live practice. | `[x]` | `[ ]` | `[x] Completed` |
 | **[16-project-defense](./16-project-defense/)** | Self-written assignment defense and technical choice explanations. | `[x]` | `[ ]` | `[ ] Not Started` |
@@ -77,15 +77,15 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
   - [ ] [interview-qna.md](./03-typescript/interview-qna.md)
 
 ### 🔵 [Module 04: React](./04-react/) (Later)
-- [ ] [01-components-jsx.md](./04-react/01-components-jsx.md)
-- [ ] [02-props-state.md](./04-react/02-props-state.md)
-- [ ] [03-useEffect-lifecycle.md](./04-react/03-useEffect-lifecycle.md)
-- [ ] [04-hooks-deep-dive.md](./04-react/04-hooks-deep-dive.md)
-- [ ] [05-forms-controlled-inputs.md](./04-react/05-forms-controlled-inputs.md)
-- [ ] [06-state-management-patterns.md](./04-react/06-state-management-patterns.md)
-- [ ] [07-performance-rerenders.md](./04-react/07-performance-rerenders.md)
-- [ ] [mcqs.md](./04-react/mcqs.md)
-- [ ] [interview-qna.md](./04-react/interview-qna.md)
+- [x] [01-components-jsx.md](./04-react/01-components-jsx.md)
+- [x] [02-props-state.md](./04-react/02-props-state.md)
+- [x] [03-useEffect-lifecycle.md](./04-react/03-useEffect-lifecycle.md)
+- [x] [04-hooks-deep-dive.md](./04-react/04-hooks-deep-dive.md)
+- [x] [05-forms-controlled-inputs.md](./04-react/05-forms-controlled-inputs.md)
+- [x] [06-state-management-patterns.md](./04-react/06-state-management-patterns.md)
+- [x] [07-performance-rerenders.md](./04-react/07-performance-rerenders.md)
+- [x] [mcqs.md](./04-react/mcqs.md)
+- [x] [interview-qna.md](./04-react/interview-qna.md)
 - [ ] [examples/](./04-react/examples/) (Code examples folder)
 
 ### 🔴🔵 [Module 05: Next.js](./05-nextjs/) (Mixed)
@@ -140,10 +140,10 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [x] [problems/](./09-dsa/problems/) (Folder for individual problem files)
 
 ### 🔵 [Module 10: Databases](./10-databases/) (Later)
-- [ ] [01-relational-db-basics.md](./10-databases/01-relational-db-basics.md)
-- [ ] [02-sql-fundamentals.md](./10-databases/02-sql-fundamentals.md)
-- [ ] [03-when-to-use-db-in-this-project.md](./10-databases/03-when-to-use-db-in-this-project.md)
-- [ ] [mcqs.md](./10-databases/mcqs.md)
+- [x] [01-relational-db-basics.md](./10-databases/01-relational-db-basics.md)
+- [x] [02-sql-fundamentals.md](./10-databases/02-sql-fundamentals.md)
+- [x] [03-when-to-use-db-in-this-project.md](./10-databases/03-when-to-use-db-in-this-project.md)
+- [x] [mcqs.md](./10-databases/mcqs.md)
 
 ### 🔴 [Module 11: Git, GitHub & Deployment](./11-git-github-deployment/) (This Week)
 - [x] [01-git-basics-commit-branch.md](./11-git-github-deployment/01-git-basics-commit-branch.md)
@@ -152,15 +152,15 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 - [x] [mcqs.md](./11-git-github-deployment/mcqs.md)
 
 ### 🔵 [Module 12: System Design Thinking](./12-system-design-thinking/) (Later)
-- [ ] [01-cost-and-rate-limits.md](./12-system-design-thinking/01-cost-and-rate-limits.md)
-- [ ] [02-caching-strategies.md](./12-system-design-thinking/02-caching-strategies.md)
-- [ ] [03-evaluating-agent-quality.md](./12-system-design-thinking/03-evaluating-agent-quality.md)
-- [ ] [interview-qna.md](./12-system-design-thinking/interview-qna.md)
+- [x] [01-cost-and-rate-limits.md](./12-system-design-thinking/01-cost-and-rate-limits.md)
+- [x] [02-caching-strategies.md](./12-system-design-thinking/02-caching-strategies.md)
+- [x] [03-evaluating-agent-quality.md](./12-system-design-thinking/03-evaluating-agent-quality.md)
+- [x] [interview-qna.md](./12-system-design-thinking/interview-qna.md)
 
 ### 🔵 [Module 13: AI Product Thinking](./13-ai-product-thinking/) (Later)
-- [ ] [01-what-is-an-ai-product.md](./13-ai-product-thinking/01-what-is-an-ai-product.md)
-- [ ] [02-product-thinking-for-ai-features.md](./13-ai-product-thinking/02-product-thinking-for-ai-features.md)
-- [ ] [interview-qna.md](./13-ai-product-thinking/interview-qna.md)
+- [x] [01-what-is-an-ai-product.md](./13-ai-product-thinking/01-what-is-an-ai-product.md)
+- [x] [02-product-thinking-for-ai-features.md](./13-ai-product-thinking/02-product-thinking-for-ai-features.md)
+- [x] [interview-qna.md](./13-ai-product-thinking/interview-qna.md)
 
 ### 🔴 [Module 14: Resume & Behavioral Prep](./14-resume-and-behavioral-prep/) (This Week)
 - [x] [01-explaining-your-projects.md](./14-resume-and-behavioral-prep/01-explaining-your-projects.md)
