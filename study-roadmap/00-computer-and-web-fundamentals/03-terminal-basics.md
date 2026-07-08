@@ -6,6 +6,7 @@ The **Terminal** (also called the Command Line, Console, or Shell) is simply ano
 
 ---
 
+
 ## 🧭 The Core Commands
 
 Think of the terminal as a text-based version of your File Explorer (on Windows) or Finder (on Mac). Here are the 4 fundamental commands you must know:

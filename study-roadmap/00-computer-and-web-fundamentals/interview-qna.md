@@ -57,7 +57,7 @@ HTTP methods represent the type of action you want to perform on a server, mappi
 **Answer:**
 The Staging Area gives developers fine-grained control over their commits. 
 
-If you are working on a feature and edit three different files, but one file is a half-finished experiment, you don't want to save everything together. Using `git add`, you can select only the two working files to commit first, leaving the third file untracked or staged later. It keeps your repository history clean and focused on one logical change at a time.
+If you are working on a feature and edit three different files, but one file is a half-finished experiment, you don't want to save everything together. Using `git add`, you can select only the two working files to commit first, leaving the third file untracked or staged later. It keeps your repository history clean and focused on one logical change at a time..
 
 ---
 
