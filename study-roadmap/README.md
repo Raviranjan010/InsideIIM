@@ -10,7 +10,7 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 
 | Module | Description | This Week | Later | Progress |
 | :--- | :--- | :---: | :---: | :---: |
-| **[00-computer-and-web-fundamentals](./00-computer-and-web-fundamentals/)** | Essential internet architectures, client-server models, HTTP, and shell tools. | `[x]` | `[ ]` | `[ ] Not Started` |
+| **[00-computer-and-web-fundamentals](./00-computer-and-web-fundamentals/)** | Essential internet architectures, client-server models, HTTP, and shell tools. | `[x]` | `[ ]` | `[x] Completed` |
 | **[01-html-css-fundamentals](./01-html-css-fundamentals/)** | Semantics, Box Model, Flexbox/Grid, and responsive layout foundations. | `[ ]` | `[x]` | `[ ] Not Started` |
 | **[02-javascript](./02-javascript/)** | Core syntax, scope, closures, array methods, async event loop, and classes. | `[x]` (Core) | `[x]` (Deep) | `[ ] Not Started` |
 | **[03-typescript](./03-typescript/)** | Typing essentials, interfaces, generics, and utility types. | `[x]` (Basics) | `[x]` (Full) | `[ ] Not Started` |
@@ -33,12 +33,12 @@ Use the checkboxes below to track which modules are scheduled for **This Week** 
 ## 🗂️ Detailed Syllabus & Checklists
 
 ### 🔴 [Module 00: Computer & Web Fundamentals](./00-computer-and-web-fundamentals/) (This Week)
-- [ ] [01-how-the-internet-works.md](./00-computer-and-web-fundamentals/01-how-the-internet-works.md)
-- [ ] [02-client-server-http.md](./00-computer-and-web-fundamentals/02-client-server-http.md)
-- [ ] [03-terminal-basics.md](./00-computer-and-web-fundamentals/03-terminal-basics.md)
-- [ ] [04-git-github-basics.md](./00-computer-and-web-fundamentals/04-git-github-basics.md)
-- [ ] [mcqs.md](./00-computer-and-web-fundamentals/mcqs.md)
-- [ ] [interview-qna.md](./00-computer-and-web-fundamentals/interview-qna.md)
+- [x] [01-how-the-internet-works.md](./00-computer-and-web-fundamentals/01-how-the-internet-works.md)
+- [x] [02-client-server-http.md](./00-computer-and-web-fundamentals/02-client-server-http.md)
+- [x] [03-terminal-basics.md](./00-computer-and-web-fundamentals/03-terminal-basics.md)
+- [x] [04-git-github-basics.md](./00-computer-and-web-fundamentals/04-git-github-basics.md)
+- [x] [mcqs.md](./00-computer-and-web-fundamentals/mcqs.md)
+- [x] [interview-qna.md](./00-computer-and-web-fundamentals/interview-qna.md)
 
 ### 🔵 [Module 01: HTML & CSS Fundamentals](./01-html-css-fundamentals/) (Later)
 - [ ] [01-html-structure-semantics.md](./01-html-css-fundamentals/01-html-structure-semantics.md)
