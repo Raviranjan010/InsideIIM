@@ -4,7 +4,7 @@ Welcome to JavaScript! Before writing complex code, you must master the fundamen
 
 ---
 
-## 📦 What is a Variable?
+## 📦 What is a Variable??
 
 Think of a variable as a **labeled storage box** on your computer's memory.
 1. You create a box and give it a label (e.g., `age`).
