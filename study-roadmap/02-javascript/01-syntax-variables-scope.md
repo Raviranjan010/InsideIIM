@@ -1,4 +1,4 @@
-# JavaScript Core: Syntax, Variables, and Scope
+# JavaScript Core: Syntax, Variables, and Scope ~full~
 
 Welcome to JavaScript! Before writing complex code, you must master the fundamental building blocks: **Variables** (how we store data) and **Scope** (where that data is accessible). 
 
